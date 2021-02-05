@@ -1,0 +1,11 @@
+{
+  "name": "gatsby-source-opengraph-blogpost-metadata",
+  "version": "1.0.0",
+  "description": "gatsby plugin that sources opengraph metadata such as title, description, image, publishedTime, favicon and more",
+  "main": "gatsby-node.js",
+  "author": "Dominik Sosnowski",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
