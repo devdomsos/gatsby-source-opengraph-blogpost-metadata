@@ -1,11 +1,5 @@
 const axios = require('axios');
 
-const { currentArticles } = require('../../src/utils/pressArticles/pressArticles');
-
-require('dotenv').config({
-    path: `.env${process.env.NODE_ENV}`
-});
-
 exports.sourceNodes = async ({ actions, createNodeId, createContentDigest }, options ) => {
 
     const { apiKey, articlesUrlArray} = options;
